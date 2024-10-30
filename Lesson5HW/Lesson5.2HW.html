@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .main__circle{
+            width: 200px;
+            height: 200px;
+            background-color: #2a587e;
+            margin: 100px auto 0 auto;
+            border-radius: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: circle 5s linear infinite alternate;
+        }
+        .circle__stars{
+            animation: stars 5s linear infinite alternate;
+        }
+
+        @keyframes stars {
+            from{
+             transform: scale(0.5);
+            }
+            50%{
+             transform: scale(1) rotate(180deg);
+            }
+            to{
+             transform: scale(2);
+            }
+        }
+        @keyframes circle {
+            from{
+                background-color: #2a587e;
+            }
+            to{
+                background-color: #242451;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="main__circle">
+    <img class="circle__stars" src="img/stars.png" alt="stars">
+</div>
+</body>
+</html>

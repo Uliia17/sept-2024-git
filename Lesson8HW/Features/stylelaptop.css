@@ -1,0 +1,11 @@
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    .photos{
+        width: 768px;
+        flex-wrap: wrap;
+        gap: 24px;
+        padding: 48px 24px;
+    }
+    .photo{
+        width: 348px;
+    }
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 480px){
+    .photos{
+        width: 375px;
+    }
+    .photo{
+        width: 343px;
+        gap: 40px;
+    }
+}

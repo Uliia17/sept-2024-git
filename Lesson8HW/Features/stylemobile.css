@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px){
+    .photos{
+        width: 375px;
+        flex-direction: column;
+        gap: 32px;
+        padding: 32px 16px;
+    }
+    .photo{
+        width: 343px;
+    }
+}

@@ -1,0 +1,20 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+.photos{
+    margin:0 auto ;
+    width: 1180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+.photo{
+    width: 372px;
+    text-align: center;
+}
+.photo img{
+    width: 100%;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    *{
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      font-size: 45px;
+      font-weight: 400;
+    }
+    .grid{
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 80% 20%;
+      grid-template-rows: 20% 20% 10% 10% 20% 20%;
+      grid-template-areas:
+  "header header"
+  "top-main top-aside"
+  "average-main top-aside"
+  "average-main bottom-aside"
+  "bottom-main bottom-aside"
+  "footer footer";
+    }
+    header{
+      grid-area: header;
+      background: #8D8484;
+      color: #000;
+    }
+    .top-main{
+      grid-area: top-main;
+      background: #776969;
+      color: #FFF;
+    }
+    .average-main{
+      grid-area: average-main;
+      background: #643030;
+      color: #FFF;
+    }
+    .bottom-main{
+      grid-area: bottom-main;
+      background: #441818;
+      color: #FFF;
+    }
+    .top-aside{
+      grid-area: top-aside;
+      background: #937575;
+      color: #FFF;
+    }
+    .bottom-aside{
+      grid-area: bottom-aside;
+      background: #644C4C;
+      color: #FFF;
+    }
+    footer{
+      grid-area: footer;
+      background: #BDBDBD;
+      color: #000;
+    }
+    .box{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+<div class="grid">
+  <header class="box">Header</header>
+  <main class="box top-main">Content - 1</main>
+  <main class="box average-main">Content - 2</main>
+  <main class="box bottom-main">Content - 3</main>
+  <aside class="box top-aside">spam -1</aside>
+  <aside class="box bottom-aside">spam -2</aside>
+  <footer class="box">footer</footer>
+</div>
+</body>
+</html>

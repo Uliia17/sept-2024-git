@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+  <style>
+    body{
+      background-color: dodgerblue;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+.form-blue{
+  width: 30vw;
+  height: 50vh;
+  background-color: white;
+  border-radius: 10px;
+}
+.form-blue div:nth-child(1){
+  background-color: #d3edfb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  height: 20%;
+  border-radius: 10px;
+}
+.form-blue div:nth-child(1) h2{
+  font-size: 30px;
+  font-weight: 400;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
+form input[type="text"]{
+  width: 350px;
+  height: 32px;
+}
+form input[type="password"]{
+      width: 350px;
+      height: 32px;
+}
+.form-blue>form>div{
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form input[type="submit"]{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  background-color: #d3edfb;
+}
+  </style>
+</head>
+<body>
+<div class="form-blue">
+  <div><h2>Вхід в особистий кабінет</h2></div>
+  <form>
+    <input type="text" class="login" placeholder="Логін або email">
+    <input type="password" class="password" placeholder="Пароль">
+    <div>
+      <label>Запам'ятати мене <input type="checkbox" name="memory"></label>
+      <input type="submit" value="Вхід">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
