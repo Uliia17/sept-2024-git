@@ -1,0 +1,42 @@
+body{
+    margin: 2%;
+    }
+header{
+    height: 60vh;
+    background-color: steelblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+header p{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.7);
+    }
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0;
+}
+section{
+    height: 60vh;
+    width: 25%;
+    background-color: #2a587e;
+    padding: 0 3.3%;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+footer{
+    height: 90vh;
+    background-color: steelblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.7);
+}
